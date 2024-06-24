@@ -24,3 +24,36 @@ body {
     padding-right: 15px;
     margin: 0 auto;
  }
+
+ .header {
+    margin-top: 77px;
+ }
+
+ .header_content {
+    max-width: 530px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .logo>img {
+    width: 80px;
+ }
+
+ .navigation {
+    max-width: 500px;
+    display: flex;
+    gap: 40px;
+ }
+
+ .btn {
+    font-size: 14px;
+    font-weight: normal;
+    color: #9a9ea6;
+    transition: color 0.4s;
+ }
+
+ .btn:hover {
+    color: blue;
+ }
