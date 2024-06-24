@@ -181,3 +181,16 @@ body {
 	align-self: end;
 	justify-self: end;
 }
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 120px;
+   background-color: #4475F2;
+}
+
+.footer>p {
+   color: white;
+   font-size: 14px;
+}
